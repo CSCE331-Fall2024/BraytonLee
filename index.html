@@ -2,33 +2,73 @@
 <html>
 
 <head>
+    <!--
+        <style>
+            .links-container {
+                display: flex;
+            flex-wrap: wrap;
+            background-color: maroon;
+        }
+        
+        .links-container>div {
+            background-color: #123455;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+    </style>
+    -->
     <title>
         Brayton Charles Lee
     </title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="resume.html">Resume</a> |
-        <a href="giving.html">Giving Back</a> |
-        <a href="about.html">About</a> |
-        <a href="ai_page.html">AI Page</a>
-    </nav>
-    <label for "theme">Choose a theme:</label>
-    <select name="theme" id="theme">
-        <option value="Theme 1">Theme 1</option>
-        <option value="Theme 2">Theme 2</option>
-        <option value="Theme 3">Theme 3</option>
-    </select>
-    <h1>
-        BRAYTON CHARLES LEE
-    </h1>
-    <h2>
-        Howdy this is a short blurb about me.
-    </h2>
-    <img src="pictures/professional_headshot.jpg" alt="Brayton's Professional Portrait">
+
+
+
+
+
+    <div class="header">
+        <nav><a href="index.html">Home</a>| <a href="portfolio.html">Portfolio</a>| <a href="resume.html">Resume</a>| <a
+                href="giving.html">Giving Back</a>| <a href="about.html">About</a>| <a href="ai_page.html">AI Page</a>
+        </nav><label for "theme">Choose a theme:</label><select name="theme" id="theme">
+            <option value="Theme 1">Theme 1</option>
+            <option value="Theme 2">Theme 2</option>
+            <option value="Theme 3">Theme 3</option>
+        </select>
+    </div>
+    <div class="title">
+        <h1>BRAYTON CHARLES LEE </h1>
+    </div>
+    <div class="body">
+        <h2>Howdy this is a short blurb about me. </h2><img src="pictures/professional_headshot.jpg"
+            alt="Brayton's Professional Portrait">
+    </div>
+    <div class="links-container">
+        <div>
+            <a href="https://www.tamu.edu/index.html"><img src="pictures/tamuThumb.jpeg"
+                    alt="Texas A&M University Thumbnail" </a>
+
+        </div>
+        <div>
+            <a href=" https://www.tamug.edu/"><img src="pictures/tamugThumb.jpeg"
+                    alt="Texas A&M Galveston Campus Thumbnail" </a>
+
+        </div>
+        <div>
+            <a href="https://engineering.tamu.edu/cse/index.html"><img src="pictures/tamuCS.jpeg"
+                    alt="Texas A&M Computer Science Thumbnail" </a>
+
+        </div>
+        <div>
+            <!--TODO BRAYTON: Correct LinkedIn Link to personal profile-->
+            <a href="LinkedIn"><img src="pictures/linkedIn.jpeg" alt="LinkedIn Thumbnail" </a>
+        </div>
+
+    </div>
 </body>
 
 </html>
