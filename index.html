@@ -3,86 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/spaceStyle.css">
+    <link id="stylesheet_id" rel="stylesheet" href="">
+    <link rel="shortcut icon" href="pictures/favicon.ico">
 
-    <title>
-        Brayton Charles Lee
-    </title>
+    <title>Brayton Charles Lee</title>
 </head>
 
 <body>
-    <div class="topBar">
-        <nav>
-            <ul>
-                <li id="navLinks">
-                    <a href="#">Navigation</a>
-                    <ul>
-                        <li><a href="portfolio.html">Portfolio</a>
-                            <ul>
-                                <li><a href="resume.html">Resume</a></li>
+    <div class="fullPage">
+        <div class="navBar">
+            <nav>
+                <ul>
+                    <li id="navLinks">
+                        <a>Navigation</a>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio</a>
+                                <ul>
+                                    <li><a href="resume.html">Resume</a></li>
 
-                            </ul>
-                        </li>
-                        <li><a href="giving.html">Giving Back</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="ai_page.html">AI Page</a></li>
-                    </ul>
-                </li>
+                                </ul>
+                            </li>
+                            <li><a href="giving.html">Giving Back</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="ai_page.html">AI Page</a></li>
+                        </ul>
+                    </li>
 
-                <li id="themeSelect">
-                    <a>Select Theme</a>
-                    <ul>
-                        <li><a href="#">Theme 1</a></li>
-                        <li><a href="#">Theme 2</a></li>
-                        <li><a href="#">Theme 3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <div class="row">
-        <div class="columnLeft">&nbsp</div>
-        <div class="columnCenter">
-
-            <div class="title">
-                <h1>BRAYTON CHARLES LEE </h1>
-            </div>
-            <div class="mainBody">
-                <div class="mainBodyText">
-
-                    <p>Howdy! I am currently studying Computer Science and I have professional experience with data
-                        analysis and cybersecurity. I am dedicated to serving others and constantly seek ways to make
-                        small, impactful improvements to any project I am a part of. </p>
-                </div>
-                <div class="mainBodyPic">
-                    <img src="pictures/professional_headshot.jpg" alt="Brayton's Professional Portrait">
-                </div>
-            </div>
-            <div class="links-container">
-                <div>
-                    <a href="https://www.tamu.edu/index.html"><img src="pictures/tamuThumbnail.png"
-                            alt="Texas A&M University Thumbnail" height=50 width=50></a>
-
-                </div>
-                <div>
-                    <a href="https://www.tamug.edu/"><img src="pictures/tamugThumb.jpg"
-                            alt="Texas A&M Galveston Campus Thumbnail" height=50 width=50></a>
-
-                </div>
-                <div>
-                    <a href="https://engineering.tamu.edu/cse/index.html"><img src="pictures/tamuCS.jpg"
-                            alt="Texas A&M Computer Science Thumbnail" height=50 width=50></a>
-
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/braytoncharleslee/"><img src="pictures/linkedIn.png"
-                            alt="LinkedIn Thumbnail" height=50 width=50></a>
-                </div>
-
-            </div>
+                    <li id="themeSelect">
+                        <a>Select Theme</a>
+                        <ul>
+                            <li><a onclick="theme1Link()">Theme 1</a></li>
+                            <li><a onclick="theme2Link()">Theme 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="columnRight">&nbsp</div>
+        <div class="title">
+            <h1>BRAYTON CHARLES LEE </h1>
+        </div>
+        <div class="mainBodyText">
+
+            <p>Howdy! I am currently studying Computer Science and I have professional experience with data
+                analysis and cybersecurity. I am dedicated to serving others and constantly seek ways to
+                make
+                small, impactful improvements to any project I am a part of. </p>
+        </div>
+        <div class="mainBodyPic">
+            <img src="pictures/professional_headshot.jpg" alt="Brayton's Professional Portrait">
+        </div>
+        <div class="links-container">
+            <div>
+                <a href="https://www.tamu.edu/index.html"><img src="pictures/tamuThumbnail.png"
+                        alt="Texas A&M University Thumbnail" height=50 width=50></a>
+
+            </div>
+            <div>
+                <a href="https://www.tamug.edu/"><img src="pictures/tamugThumb.jpg"
+                        alt="Texas A&M Galveston Campus Thumbnail" height=50 width=50></a>
+
+            </div>
+            <div>
+                <a href="https://engineering.tamu.edu/cse/index.html"><img src="pictures/tamuCS.jpg"
+                        alt="Texas A&M Computer Science Thumbnail" height=50 width=50></a>
+
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/braytoncharleslee/"><img src="pictures/linkedIn.png"
+                        alt="LinkedIn Thumbnail" height=50 width=50></a>
+            </div>
+
+        </div>
+        <div class="backgroundShadow"></div>
+
     </div>
+    <script src="scripts/change_CSS.js"></script>
 </body>
 
 </html>

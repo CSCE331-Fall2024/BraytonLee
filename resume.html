@@ -3,40 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/spaceStyle.css">
+    <link id="stylesheet_id" rel="stylesheet" href="">
+    <link rel="shortcut icon" href="pictures/favicon.ico">
     <title>Resume</title>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li id="demo1">
-                <a>Navigation</a>
+    <div class="fullPage">
+        <div class="navBar">
+            <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="giving.html">Giving Back</a></li>
-                    <li><a href="ai_page.html">AI Page</a></li>
+                    <li id="navLinks">
+                        <a>Navigation</a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="giving.html">Giving Back</a></li>
+                            <li><a href="ai_page.html">AI Page</a></li>
+                        </ul>
+                    </li>
+                    <li id="themeSelect">
+                        <a>Select Theme</a>
+                        <ul>
+                            <li><a onclick="theme1Link()">Theme 1</a></li>
+                            <li><a onclick="theme2Link()">Theme 2</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <li id="demo1">
-                <a>Select Theme</a>
-                <ul>
-                    <li><a>Theme 1</a></li>
-                    <li><a>Theme 2</a></li>
-                    <li><a>Theme 3</a></li>
-                </ul>
-            </li>
-
-        </ul>
-    </nav>
-    <!--
+            </nav>
+        </div>
+        <!--
         <object class="pdf" data="https://drive.google.com/file/d/193WBoOOyF4ipBDvgyn2SyBjkkoF5JD8J/view?usp=drive_link"
         width="800" height="1050">
     </object>
         -->
-    <iframe src="https://drive.google.com/file/d/1-XDxrNTHrx6O1kFzCeBjzsLaeH1zz7vT/preview" width="640" height="480"
-        allow="autoplay"></iframe>
+        <div class="title">
+            <h1>Resume</h1>
+        </div>
+        <iframe src="https://drive.google.com/file/d/1-XDxrNTHrx6O1kFzCeBjzsLaeH1zz7vT/preview" width="640" height="480"
+            allow="autoplay"></iframe>
+    </div>
+    <script src="scripts/change_CSS.js"></script>
 </body>
 
 </html>

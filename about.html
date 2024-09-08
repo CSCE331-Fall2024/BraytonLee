@@ -3,94 +3,98 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/spaceStyle.css">
+    <link id="stylesheet_id" rel="stylesheet" href="">
+    <link rel="shortcut icon" href="pictures/favicon.ico">
     <title> "An Introduction"</title>
 
 </head>
 
 <body>
-    <div class="topBar">
-        <nav>
-            <ul>
-                <li id="navLinks">
-                    <a>Navigation</a>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a>
-                            <ul>
-                                <li><a href="resume.html">Resume</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="giving.html">Giving Back</a></li>
-                        <li><a href="ai_page.html">AI Page</a></li>
-                    </ul>
-                </li>
-                <li id="themeSelect">
-                    <a>Select Theme</a>
-                    <ul>
-                        <li><a>Theme 1</a></li>
-                        <li><a>Theme 2</a></li>
-                        <li><a>Theme 3</a></li>
-                    </ul>
-                </li>
+    <div class="fullPage">
+        <div class="navBar">
+            <nav>
+                <ul>
+                    <li id="navLinks">
+                        <a>Navigation</a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a>
+                                <ul>
+                                    <li><a href="resume.html">Resume</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="giving.html">Giving Back</a></li>
+                            <li><a href="ai_page.html">AI Page</a></li>
+                        </ul>
+                    </li>
+                    <li id="themeSelect">
+                        <a>Select Theme</a>
+                        <ul>
+                            <li><a onclick="theme1Link()">Theme 1</a></li>
+                            <li><a onclick="theme2Link()">Theme 2</a></li>
+                        </ul>
+                    </li>
 
-            </ul>
-        </nav>
+                </ul>
+            </nav>
 
-    </div>
-    <div class="body">
-
-        <div class="row">
-            <div class="columnLeft">&nbsp</div>
-            <div class="columnCenter">
-
-                <div class="title">
-                    <h1>A Brief Introduction</h1>
-                </div>
-                <div class="mainBody">
-                    <div class="mainBodyText">
-
-                        <p>I live with my wife and our small menagerie of pets, and we both serve as volunteer
-                            firefighters in our community. In my free time, I enjoy two contrasting sports: powerlifting
-                            and ultra-endurance cycling. My current long-term goal is to complete two different cycling
-                            events: Paris-Brest-Paris and London-Edinburgh-London. Both are rides of about 750 miles
-                            that must be completed in less than 90 hours. My wife and I have also been playing TTRPGs
-                            with a small group of close friends since 2015.
-                        </p>
-                        <p> Academically, I have a diverse set of interests; however, my primary interest is in using
-                            automation to make our lives safer. Humans can make amazing leaps in reasoning to achieve
-                            discoveries. We also quickly become task -saturated, confused, or just plain bored, leading
-                            to mistakes. Machine tools and intelligence can supplement our abilities preventing errors,
-                            or to see through noise to find patterns in tremendous amounts of data.
-                        </p>
-                        <p> As technology continues to permeate every aspect of our lives, we have an opportunity to
-                            prevent accidents, discover illnesses, and intervene to prevent harms that happen daily. The
-                            responsible and ethical creation of these technologies are core values that I hold.
-                        </p>
-                        <p> With responsible technology creation and use comes the need for strong security behind those
-                            systems. I am fascinated by cybersecurity, especially the social engineering aspect of it.
-                            Technical exploits are flashy and grab headlines, yet, for the average person, social
-                            exploitation is by far the biggest threat. When interacting with the public as a
-                            firefighter, I am amazed at how open and honest people can be and how much information
-                            people are openly willing to give to strangers. I have learned that education is paramount
-                            for everyone involved with technology in any way. From national security to the most
-                            vulnerable, appropriate systems must be in place to seamlessly provide peace of mind and the
-                            ability to fully and ethically implement these systems into our lives.
-                        </p>
-                    </div>
-                    <div class="mainBodyPic">
-                        <img src="pictures/renfest_bodyshot.jpg" alt="Brayton enjoying time at RenFest">
-                    </div>
-                </div>
-
-            </div>
-            <div class="columnRight">&nbsp</div>
         </div>
 
-        <img src="training_burn.jpg" alt="Firefighter standing in from of a buring training prop">
+        <div class="title">
+            <h1>A Brief Introduction</h1>
+        </div>
 
-        <img src="" alt="Here is another pic">
-    </div>
+        <div class="mainBodyText">
+
+            <p>I live with my wife and our small menagerie of pets, and we both serve as volunteer
+                firefighters in our community. In my free time, I enjoy two contrasting sports:
+                powerlifting
+                and ultra-endurance cycling. My current long-term goal is to complete two different
+                cycling
+                events: Paris-Brest-Paris and London-Edinburgh-London. Both are rides of about 750 miles
+                that must be completed in less than 90 hours. My wife and I have also been playing
+                TTRPGs
+                with a small group of close friends since 2015.
+            </p>
+            <p> Academically, I have a diverse set of interests; however, my primary interest is in
+                using
+                automation to make our lives safer. Humans can make amazing leaps in reasoning to
+                achieve
+                discoveries. We also quickly become task -saturated, confused, or just plain bored,
+                leading
+                to mistakes. Machine tools and intelligence can supplement our abilities preventing
+                errors,
+                or to see through noise to find patterns in tremendous amounts of data.
+            </p>
+            <p> As technology continues to permeate every aspect of our lives, we have an opportunity to
+                prevent accidents, discover illnesses, and intervene to prevent harms that happen daily.
+                The
+                responsible and ethical creation of these technologies are core values that I hold.
+            </p>
+            <p> With responsible technology creation and use comes the need for strong security behind
+                those
+                systems. I am fascinated by cybersecurity, especially the social engineering aspect of
+                it.
+                Technical exploits are flashy and grab headlines, yet, for the average person, social
+                exploitation is by far the biggest threat. When interacting with the public as a
+                firefighter, I am amazed at how open and honest people can be and how much information
+                people are openly willing to give to strangers. I have learned that education is
+                paramount
+                for everyone involved with technology in any way. From national security to the most
+                vulnerable, appropriate systems must be in place to seamlessly provide peace of mind and
+                the
+                ability to fully and ethically implement these systems into our lives.
+            </p>
+        </div>
+        <div class="mainBodyPic">
+            <img src="pictures/renfest_bodyshot.jpg" alt="Brayton enjoying time at RenFest">
+        </div>
+
+        <div class="secondaryBodyPic">
+
+            <img src="https://placedog.net/640/480?r" alt="Firefighter standing in from of a buring training prop">
+        </div>
+        <script src="scripts/change_CSS.js"></script>
 </body>
 
 </html>

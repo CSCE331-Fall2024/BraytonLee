@@ -1,111 +1,125 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/spaceStyle.css">
+    <link id="stylesheet_id" rel="stylesheet" href="">
+    <link rel="shortcut icon" href="pictures/favicon.ico">
 
     <title>Projects</title>
 </head>
 
 <body>
-    <div class="topBar">
+    <div class="fullPage">
+        <div class="navBar">
+            <nav>
+                <ul>
+                    <li id="navLinks">
+                        <a>Navigation</a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="giving.html">Giving Back</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="ai_page.html">AI Page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li id="themeSelect">
+                        <a>Select Theme</a>
+                        <ul>
+                            <li><a onclick="theme1Link()">Theme 1</a></li>
+                            <li><a onclick="theme2Link()">Theme 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="mainBodyText">
+            <p>
+                Throughout my career, I have built several successful systems that have greatly improved
+                work
+                productivity, reduced overhead costs, and improved safety.
 
-        <nav>
-            <ul>
-                <li id="navLinks">
-                    <a>Navigation</a>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="giving.html">Giving Back</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="ai_page.html">AI Page</a></li>
-                    </ul>
-                </li>
-                <li><a href="resume.html">Resume</a></li>
-                <li id="themeSelect">
-                    <a>Select Theme</a>
-                    <ul>
-                        <li><a>Theme 1</a></li>
-                        <li><a>Theme 2</a></li>
-                        <li><a>Theme 3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <div class="row">
-        <div class="columnLeft">&nbsp</div>
-        <div class="columnCenter">
-            <div class="title">
+            </p>
 
-                <h1>Portfolio</h1>
-            </div>
-            <div class="mainBody">
-                <div class="mainBodyText">
-                    <p>
-                        Throughout my career, I have built several successful systems that have greatly improved work
-                        productivity, reduced overhead costs, and improved safety.
+            <p>
+                My first major project involved designing and implementing a frictionless process for
+                machinists
+                to track their production, enabling management to identify areas of improvement in several
+                key
+                areas.
+            </p>
 
-                    </p>
+            <p>
+                In 2014, my wife and I moved to Colorado, where I worked at Colorado State University. While
+                there I led and worked on two major projects. First, I designed and automated a
+                time-tracking
+                process for employees that reducing the required effort to produce, inspect, and log entries
+                by
+                more than 95%.
+            </p>
 
-                    <p>
-                        My first major project involved designing and implementing a frictionless process for machinists
-                        to track their production, enabling management to identify areas of improvement in several key
-                        areas.
-                    </p>
+            <p>
+                I also developed a database and process for tracking inventory and capital assets that was
+                both
+                user-friendly and easy to maintain.
+            </p>
 
-                    <p>
-                        In 2014, my wife and I moved to Colorado, where I worked at Colorado State University. While
-                        there I led and worked on two major projects. First, I designed and automated a time-tracking
-                        process for employees that reducing the required effort to produce, inspect, and log entries by
-                        more than 95%.
-                    </p>
+            <p>
+                Most recently, I modeled and prototyped a mesh network of air monitoring sensors that can be
+                used by a fire department HAZMAT team. The system consists of small edge sensors that are to
+                be
+                distributed within hot and cold zones to monitor changing conditions without risking first
+                responders during an emergency response.
 
-                    <p>
-                        I also developed a database and process for tracking inventory and capital assets that was both
-                        user-friendly and easy to maintain.
-                    </p>
+            </p>
+        </div>
+        <div class="mainBodyPic">
+            <img src="https://placedog.net/640/480?random" alt="Some pic from CO">
+        </div>
 
-                    <p>
-                        Most recently, I modeled and prototyped a mesh network of air monitoring sensors that can be
-                        used by a fire department HAZMAT team. The system consists of small edge sensors that are to be
-                        distributed within hot and cold zones to monitor changing conditions without risking first
-                        responders during an emergency response.
+        <div class="secondaryBodyPic">
 
-                    </p>
-                </div>
-                <div class="mainBodyPic">
-                    <img src="https://placedog.net/640/480?random" alt="Some pic from CO">
+            <img src="https://placedog.net/640/480?r" alt="Some pic for the future">
+        </div>
+        <div class="secondaryBodyText">
+            <p>In the near future, I am working towards two major goals. First, I will build a machine
+                vision
+                and machine learning system to supplement health and environmental monitoring for animals
+                housed
+                in fixed facilities, for example animals in shelters, hospitals, and research. The purpose
+                of
+                this system is to provide a second line of defense in identifying illness or abnormal
+                conditions
+                in a constantly monitored system, and to assist every hard working and well-meaning care
+                giver
+                with minimal cost
+            </p>
+            <p>
 
-                </div>
-            </div>
+                Additionally, it is also my most heartfelt desire to work with others in advancing the cause
+                of
+                science and spaceflight by working with NASA or another space-focused organization. Most
+                people
+                think of “space exploration” as simply looking up; however, nearly every discovery and
+                invention
+                from space research and engineering has the potential to directly impact live on Earth,
+                making
+                it a better and safer for everyone.
+            </p>
+        </div>
+        <div class="links-container">
+            <div>
+                <a href="https://github.com/sicou2"><img src="pictures/gitHubThumb.png"
+                        alt="Texas A&M University Thumbnail" height=50 width=50></a>
 
-            <div class="mainBody">
-                <div class="mainBodyPic">
-
-                    <img src="https://placedog.net/640/480?r" alt="Some pic for the future">
-                </div>
-                <div class="mainBodyText">
-                    <p>In the near future, I am working towards two major goals. First, I will build a machine vision
-                        and machine learning system to supplement health and environmental monitoring for animals housed
-                        in fixed facilities, for example animals in shelters, hospitals, and research. The purpose of
-                        this system is to provide a second line of defense in identifying illness or abnormal conditions
-                        in a constantly monitored system, and to assist every hard working and well-meaning care giver
-                        with minimal cost
-                    </p>
-                    <p>
-
-                        Additionally, it is also my most heartfelt desire to work with others in advancing the cause of
-                        science and spaceflight by working with NASA or another space-focused organization. Most people
-                        think of “space exploration” as simply looking up; however, nearly every discovery and invention
-                        from space research and engineering has the potential to directly impact live on Earth, making
-                        it a better and safer for everyone.
-                    </p>
-                </div>
             </div>
         </div>
     </div>
-    <div class="columnRight">&nbsp</div>
-    </div>
-
+    <script src="scripts/change_CSS.js"></script>
 </body>
+
+</html>
