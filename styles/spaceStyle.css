@@ -117,7 +117,7 @@ body * {
         border-left: 10px solid white;
         top: 20px;
         left: -180px;
-        transition: opacity 0.6, transform 0s;
+        transition: opacity 0.6s, transform 0s;
     }
 
     nav>ul>li>ul>li {
@@ -304,20 +304,24 @@ body * {
 
 
 
-
-/* .pdf {
-    width: 100%;
+.pdf {
+    /* width: 150%; */
+    height: 100vp;
     aspect-ratio: 4 / 3;
+    grid-column: 2/4;
+    grid-row: 2/5;
+    place-self: center;
 }
 
-.pdf, */
+.pdf,
 
-/* body {
-    height: 100%;
+body {
+    /* height: 100%; */
     margin: 0;
     padding: 0;
 }
 
+/*
 h1,
 h3 {
     text-align: center;
