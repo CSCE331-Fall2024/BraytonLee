@@ -16,14 +16,21 @@ body * {
     padding: 0;
 }
 
-.fullPage {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+p {
+    text-indent: 2ch;
+    text-align: justify;
+    margin-bottom: 1em;
+
 }
 
 
+
+.fullPage {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 15%;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
 
 .navBar {
     background-color: rgba(0, 0, 0, 0.75);
@@ -155,9 +162,6 @@ body * {
     grid-row: 1;
 }
 
-
-
-
 .backgroundShadow {
     grid-column: 2/4;
     grid-row: 2/5;
@@ -243,7 +247,6 @@ body * {
     max-width: 100%;
     max-height: 100%;
 }
-
 
 .pdf {
     width: 80vw;
