@@ -189,7 +189,7 @@ h1 {
 }
 
 .secondaryBodyPic {
-    width: 70%;
+    width: 60%;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -232,7 +232,7 @@ h1 {
 
 .pdf {
     width: 80vw;
-    height: 50vh;
+    height: 60vh;
     aspect-ratio: 4 / 3;
     grid-column: 1/5;
     grid-row: 2;
